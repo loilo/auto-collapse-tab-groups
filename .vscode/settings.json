@@ -1,0 +1,22 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#5026ed",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#5026ed99",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "sash.hoverBorder": "#7655f1",
+    "commandCenter.border": "#e7e7e799"
+  },
+  "peacock.color": "#5026ed",
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/extension": true
+  },
+  "path-intellisense.extensionOnImport": false,
+  "files.watcherExclude": {
+    "**/extension/**": true
+  }
+}

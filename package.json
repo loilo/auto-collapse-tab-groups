@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test:ts": "tsc --noEmit",
+    "test:eslint": "eslint \"src/**/*.ts\"",
+    "test": "run-s test:ts test:eslint",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "pack": "node pack",
+    "deploy": "run-s test build pack"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.203",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "archiver": "^5.3.1",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4"
+  }
+}

@@ -1,0 +1,31 @@
+env:
+  browser: true
+  es2021: true
+globals:
+  chrome: true
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - prettier
+overrides: []
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+  extraFileExtensions:
+    - '*.d.ts'
+plugins:
+  - '@typescript-eslint'
+rules:
+  indent: off
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - never
+  '@typescript-eslint/no-explicit-any': off
+  '@typescript-eslint/no-non-null-assertion': off

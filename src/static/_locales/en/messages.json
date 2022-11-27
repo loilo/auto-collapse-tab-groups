@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Auto-Collapse Tab Groups",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Automatically collapse unfocused tab groups.",
+    "description": "The description of the application, displayed in the web store."
+  }
+}

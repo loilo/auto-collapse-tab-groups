@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Tab-Gruppen automatisch zuklappen",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Halte nur die Tab-Gruppe des jeweils aktuellen Tabs offen.",
+    "description": "The description of the application, displayed in the web store."
+  }
+}

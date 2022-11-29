@@ -14,5 +14,5 @@
   "background": {
     "service_worker": "background.mjs"
   },
-  "permissions": ["tabs", "tabGroups"]
+  "permissions": ["tabGroups"]
 }
